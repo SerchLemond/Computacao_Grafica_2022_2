@@ -10,7 +10,7 @@
 
 ### Observações:
 - É necessário que as seguintes bibliotecas python estejam instaladas para que o códio funcione devidamente:
--- pyopengl;
--- pysdl2;
--- pysdl2-dll;
--- math.
+  - pyopengl;
+  - pysdl2;
+  - pysdl2-dll;
+  - math.
