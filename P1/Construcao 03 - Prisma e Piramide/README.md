@@ -7,10 +7,10 @@
 
 ### Como rodar o código:
 - Abrir o terminal ou prompt de comando já direcionado na pasta onde estão salvos os arquivos e rodar o comando "python piramides.py" / "python prismas.py"
-- ex: C:\Users\funalo\Documents\CG> python piramides.py
+  - ex: C:\Users\funalo\Documents\CG> python piramides.py
 
 ### Observações:
 - É necessário que as seguintes bibliotecas python estejam instaladas para que o códio funcione devidamente:
--- pyopengl;
--- pysdl2;
--- pysdl2-dll.
+  - pyopengl;
+  - pysdl2;
+  - pysdl2-dll.
