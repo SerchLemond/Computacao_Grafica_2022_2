@@ -1,4 +1,4 @@
-## Construção 01 - Curva de Benier
+## Construção 02 - Poligono Estrelado
 
 ### Observações:
 -
