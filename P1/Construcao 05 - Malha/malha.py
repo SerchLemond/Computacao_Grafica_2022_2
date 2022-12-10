@@ -25,41 +25,7 @@ def MalhaPontos():
             glVertex3f(x + dx, y, f(x + dx, y))
     glEnd()
 
-def MalhaCheia():
-    x_f = 2; x_1 = -2
-    y_f = 2; y_1 = -2
-    nx = ny = 100
-    dx = (x_f - x_1)/nx
-    dy = (y_f - y_1)/ny
-    for i in range(0, nx):
-        glBegin(GL_TRIANGLE_STRIP)
-        for j in range(0, ny):
-            x = x_1 + (i * dx)
-            y = y_1 + (j * dy)
-            z = f(x,y)
-            glVertex3f(x, y, z)
-            glVertex3f(x + dx, y, f(x + dx, y))
-        glEnd()
-
-def Radar():
-    ns = 50 ##SETORES
-    nt = 50 ##TRILHAS
-    rf = 2 ##RAIO FINAL
-    dteta = (math.pi * 2)/ns
-    draio = rf/nt
-    glBegin(GL_POINTS)
-    for i in range(ns):
-        for j in range(nt):
-            teta = i * dteta
-            raio = j * draio
-            x = raio * math.cos(teta)
-            y = raio * math.sin(teta)
-            z = f(x,y)
-            glVertex3f(x, y, z)
-    glEnd()
-
 ar = 0
-
 
 def desenha():
     global ar
@@ -67,8 +33,6 @@ def desenha():
     glPushMatrix()
     glRotatef(ar, 1, 1, 0)
     MalhaPontos()
-    #MalhaCheia()
-    #Radar()
     glPopMatrix()
     ar += 0.1
 
@@ -91,7 +55,7 @@ if not window:
 glcontext = sdl2.SDL_GL_CreateContext(window)
 glEnable(GL_MULTISAMPLE)
 glEnable(GL_DEPTH_TEST)
-glClearColor(0., 0., 0., 1.)
+glClearColor(0.1, 0.0, 0.1, 1.)
 gluPerspective(45, 800.0 / 600.0, 0.1, 100.0)
 glTranslatef(0.0, 0.0, -10)
 
