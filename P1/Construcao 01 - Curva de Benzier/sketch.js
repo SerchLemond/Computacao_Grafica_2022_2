@@ -6,10 +6,6 @@ function segmento(A, B) {
   line(A.x, A.y, B.x, B.y);
 }
   
-function ponto(A) {
-  circle(A.x, A.y, 10);
-}
-  
 function combina(A, B, t) {
   return { x: (1 - t) * A.x + t * B.x, y: (1 - t) * A.y + t * B.y };
 }
