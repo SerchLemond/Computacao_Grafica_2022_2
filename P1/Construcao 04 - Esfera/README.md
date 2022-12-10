@@ -1,7 +1,7 @@
-## Construção 03 - Prisma e Pirâmide
+## Construção 04 - Esfera
 
 ### Conteúdo da pasta:
-- piramides.py: O arquivo python responsável por renderizar as esfera;
+- esfera.py: O arquivo python responsável por renderizar a esfera;
 - cod04.png e print04.png: Uma parte do código e um print do código funcionando, respectivamente; fazem parte da entrega da tarefa e foram salvos no github como bacukp.
 
 ### Como rodar o código:
