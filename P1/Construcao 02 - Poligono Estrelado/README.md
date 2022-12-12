@@ -10,4 +10,4 @@
 - Clique com o botão direito sobre o arquivo index.html, selecione a opção "abrir com" e abra-o com o seu navegador de escolha. O arquivo sketch.js deve estar na mesma pasta que index.html para que funcione devidamente;
 
 ### Observações:
-- É necessário que os arquivo p5.min.js esteva acessível para o sketch.js para que este funcione devidamente;
+- É necessário que o arquivo p5.min.js esteva junto com sketch.js e index.html, na mesma pasta, para que este funcione devidamente;
