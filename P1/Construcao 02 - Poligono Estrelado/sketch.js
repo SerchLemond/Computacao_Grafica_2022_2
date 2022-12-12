@@ -1,7 +1,3 @@
-const raioG = 150;
-const raioP = 50;
-let n = 4;
-
 function setup() {
     createCanvas(400, 400);
 }
@@ -9,6 +5,9 @@ function setup() {
 function draw() {
     background(200);
     translate(width / 2, height / 2);
+    const raioG = 150;
+    const raioP = 50;
+    let n = 4;
     let [mx, my] = relativeMouse();
     let v = createVector(1, 0)
     let u = createVector((0.2)*mx, (0.2)*my);
