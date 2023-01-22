@@ -1,0 +1,6 @@
+numpy==1.23.4
+Pillow==9.3.0
+PyGLM==2.5.7
+PyOpenGL==3.1.6
+PySDL2==0.9.14
+pysdl2-dll==2.24.1
