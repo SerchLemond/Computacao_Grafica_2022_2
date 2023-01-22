@@ -1,13 +1,17 @@
 ## Construção Final - Satélite
 
 ### Conteúdo da pasta:
-- sketch.js: O arquivo que contém o código para gerar a curva de bezier de grau 3;
-- index.html: O arquivo HTML que faz o sketch rodar no navegador;
-- p5.min.js: O arquivo que traz a biblioteca P5 do JavaScript para que o código use de suas funcionalidades;
-- cod01.png e print01.png: Uma parte do código e um print do código funcionando, respectivamente; fazem parte da entrega da tarefa e foram salvos no github como bacukp.
+- __pychache__: Umpa pasta de cache que o OpenGL cria ao botar o código para rodar;
+- pipeline: Uma pasta contendo duas sub-pastas, SimpleTexture e WhiteDotsPipeline; responsaveis por renderizarem os poligonos da construção;
+- texture: Uma pasta contendo as duas texturas a serem usadas;
+- requirements.txt: Um txt que contém todas as extenções/pacotes Phyton necessários para fazer o código funcionar;
+- sateliteF.py: O arquivo que contem o código para gerar a construção do satélite e do cenário;
+- print01.png: Um print do código funcionando; faz parte da entrega da tarefa e foram salvos no github como bacukp.
 
 ### Como rodar o código:
-- Clique com o botão direito sobre o arquivo index.html, selecione a opção "abrir com" e abra-o com o seu navegador de escolha. O arquivo sketch.js deve estar na mesma pasta que index.html para que funcione devidamente;
+- Abrir o terminal ou prompt de comando já direcionado na pasta onde estão salvos os arquivos e rodar o comando "python sateliteF.py"
+  - ex: C:\Users\funalo\Documents\CG> python sateliteF.py
 
 ### Observações:
-- É necessário que o arquivo p5.min.js esteva junto com sketch.js e index.html, na mesma pasta, para que este funcione devidamente;
+- É necessário que os arquivos dentro das pastas "pipeline" e "texture" estejam juntos a "sateliteF.py", na mesma pasta, para que este funcione devidamente;
+- É necessário que as extensões numpy, Pillow, PyGLM, PyOpenGl, PySDL2 e pysdl2-dll estejam instaladas nas versões sugeridas (ou superiores). Consultar "requirements.txt" em caso de dúvida.
