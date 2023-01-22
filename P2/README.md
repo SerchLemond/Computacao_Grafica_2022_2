@@ -1,7 +1,7 @@
 ## Construção Final - Satélite
 
 ### Conteúdo da pasta:
-- __pychache__: Umpa pasta de cache que o OpenGL cria ao botar o código para rodar;
+- pychache: Umpa pasta de cache que o OpenGL cria ao botar o código para rodar;
 - pipeline: Uma pasta contendo duas sub-pastas, SimpleTexture e WhiteDotsPipeline; responsaveis por renderizarem os poligonos da construção;
 - texture: Uma pasta contendo as duas texturas a serem usadas;
 - requirements.txt: Um txt que contém todas as extenções/pacotes Phyton necessários para fazer o código funcionar;
